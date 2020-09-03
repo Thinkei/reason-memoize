@@ -1,4 +1,4 @@
-# re-memoize
+# reason-memoize
 
 ReasonML simple memoization utility
 
