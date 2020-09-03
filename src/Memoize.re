@@ -42,6 +42,10 @@ let memoize = fn => {
   };
 };
 
+let memoize0 = fn => {
+  () => memoize(fn)([||])
+};
+
 let memoize1 = fn => {
   let fn1 = x => fn(x[0]);
   x => memoize(fn1)([|x|])

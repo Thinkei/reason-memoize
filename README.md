@@ -14,6 +14,14 @@ Add `@ehrocks/re-memoize` to `bs-dependencies` in `bsconfig.json`
 ## Usage
 
 ```reason
+let expensiveFn = () => 1;
+let execOnce = Memoize.memoize0(expensiveFn);
+
+execOnce(); /* New */
+execOnce(); /* Memoized */
+```
+
+```reason
 let add1 = x => x + 1;
 let memoizedAdd1 = Memoize.memoize1(add1);
 
