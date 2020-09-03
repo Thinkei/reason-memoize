@@ -9,7 +9,7 @@ ReasonML simple memoization utility
 npm install --save re-memoize
 ```
 
-Add `re-memoize` to `bs-dependencies` in `bsconfig.json`
+Add `@ehrocks/re-memoize` to `bs-dependencies` in `bsconfig.json`
 
 ## Usage
 
