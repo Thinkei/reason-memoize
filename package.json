@@ -1,0 +1,22 @@
+{
+  "name": "re-memoize",
+  "version": "0.0.1",
+  "description": "ReasonML simple memoization utility",
+  "main": "src/Memoize",
+  "author": "Hieu Pham <hieu.pham@employmenthero.com>",
+  "license": "MIT",
+  "files": [
+    "src",
+    "bsconfig.json"
+  ],
+  "keywords": [
+    "reasonml",
+    "memoization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thinkei/re-memoize"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
