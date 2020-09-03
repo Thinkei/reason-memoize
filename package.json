@@ -1,6 +1,6 @@
 {
   "name": "reason-memoize",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ReasonML simple memoization utility",
   "main": "src/Memoize",
   "author": "Hieu Pham <hieu.pham@employmenthero.com>",
