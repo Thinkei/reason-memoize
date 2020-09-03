@@ -20,6 +20,8 @@ let diffInElement = (x, y) => {
   diff^;
 };
 
+let isEmpty = x => Array.length(x) == 0;
+
 let memoize = fn => {
   let last = ref(None);
   params => {
@@ -30,7 +32,7 @@ let memoize = fn => {
       last := Some(newLast);
       newRes;
     | Some(contents) =>
-      if (diffInLength(contents.params, params) || diffInElement(contents.params, params)) {
+      if (!isEmpty(params) && (diffInLength(contents.params, params) || diffInElement(contents.params, params))) {
         let newRes = fn(params);
         let newLast = {params, res: newRes};
         last := Some(newLast);
