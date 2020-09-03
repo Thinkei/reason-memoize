@@ -1,6 +1,6 @@
 {
   "name": "reason-memoize",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "reason": {
     "react-jsx": 3
   },
