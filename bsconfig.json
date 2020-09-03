@@ -1,5 +1,5 @@
 {
-  "name": "@ehrocks/re-memoize",
+  "name": "reason-memoize",
   "version": "0.1.3",
   "reason": {
     "react-jsx": 3
